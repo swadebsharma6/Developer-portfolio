@@ -59,3 +59,43 @@ nav li{
     font-size: 18px;
     margin-bottom: 30px ;
 }
+/* Main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About me section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+.section-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.section-discription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-info-container{
+  display: flex;  
+  justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size: 20px ;
+    font-weight: 700;
+    color: #474747;
+}
