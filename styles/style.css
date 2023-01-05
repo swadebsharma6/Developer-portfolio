@@ -15,11 +15,17 @@
     color: #ffff;
     background-color: #FD6E0A;
 }
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 /* header and navigation style */
 nav{
    display: flex; 
    justify-content: space-between;
-   margin: 50px 200px;
+   margin: 0 200px 50px;
 }
 nav ul{
     display: flex;
